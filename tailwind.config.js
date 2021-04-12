@@ -16,7 +16,9 @@ module.exports = {
       white: colors.white,
       indigo: colors.indigo
     },
-    extend: {},
+    extend: {
+      display: ['group-focus']
+    },
     fontFamily:{
       'poppins':['Poppins'],
       'oswald':['Oswold', 'sans-serif']
